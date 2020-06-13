@@ -49,7 +49,7 @@ from pyspark.sql import Window
 from pyspark.sql import functions as f
 
 # Define Spark settings
-builder = SparkSession.builder.appName("Forward_Rate_Calculation")
+builder = SparkSession.builder.appName("Discount_Cashflows")
 spark = builder.getOrCreate()
 
 # Read in the cash flows data and rate data as csv
